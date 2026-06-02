@@ -27,7 +27,14 @@ const certifications = [
     issuer: 'Online',
     type: 'Certification',
     icon: '◐',
-    color: '#38bdf8',
+    color: '#f59e0b',
+  },
+  {
+    title: 'Fundamentals of Liquibase',
+    issuer: 'Liquibase',
+    type: 'Certification',
+    icon: '◐',
+    color: '#a78bfa',
   },
   {
     title: 'PG-DAC',
@@ -40,10 +47,16 @@ const certifications = [
 
 const learningAreas = [
   {
-    area: 'Capital Markets',
-    description: 'Actively learning financial instruments, trading systems, and capital markets technology after joining LTIMindtree.',
+    area: 'Banking & Financial Services (BFS)',
+    description: 'Building domain knowledge in banking operations, financial products, payments, lending, and enterprise banking technology.',
     status: 'In Progress',
     color: '#f59e0b',
+  },
+  {
+    area: 'Capital Markets',
+    description: 'Exploring financial instruments, securities trading, IPOs, derivatives, and capital markets technology platforms.',
+    status: 'In Progress',
+    color: '#f97316',
   },
   {
     area: 'Distributed Systems',

@@ -17,7 +17,13 @@ const expertiseGroups = [
     label: 'Microservices',
     icon: '◎',
     color: '#34d399',
-    skills: ['Distributed Systems', 'API Gateway', 'Service Discovery', 'Circuit Breaker', 'Event-Driven Architecture', 'Spring Cloud'],
+    skills: ['Microservices Architecture', 'Distributed Systems', 'API Gateway', 'Service Discovery', 'Circuit Breaker', 'Event-Driven Architecture', 'Spring Cloud'],
+  },
+  {
+    label: 'AI-Assisted Development',
+    icon: '✦',
+    color: '#ec4899',
+    skills: ['GitHub Copilot', 'ChatGPT', 'Claude', 'Google Gemini', 'Prompt Engineering', 'AI-Assisted Code Generation', 'Code Review & Refactoring', 'Technical Documentation', 'Architecture Brainstorming'],
   },
   {
     label: 'Security',
@@ -29,7 +35,7 @@ const expertiseGroups = [
     label: 'Cloud & DevOps',
     icon: '◐',
     color: '#38bdf8',
-    skills: ['Docker', 'Kubernetes', 'Jenkins', 'CI/CD', 'AWS EC2', 'AWS ECR', 'AWS S3', 'Oracle Cloud'],
+    skills: ['Docker','Kubernetes', 'Jenkins', 'CI/CD', 'AWS EC2', 'AWS ECR', 'AWS S3', 'Oracle Cloud Infrastructure (OCI)'],
   },
   {
     label: 'Messaging',
@@ -58,10 +64,10 @@ const expertiseGroups = [
 ]
 
 const domains = [
-  { name: 'Telecom CRM', level: 90 },
-  { name: 'Government Digital Services', level: 85 },
+  { name: 'Telecom CRM', level: 70 },
+  { name: 'Government Digital Services', level: 80 },
   { name: 'Enterprise Software', level: 88 },
-  { name: 'Capital Markets', level: 30 },
+  { name: 'BFS', level: 20 },
 ]
 
 export default function Expertise() {

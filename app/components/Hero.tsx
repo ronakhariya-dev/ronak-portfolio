@@ -145,7 +145,7 @@ export default function Hero() {
 
         {/* Stats row */}
         <div style={{ display: 'flex', gap: '3rem', marginTop: '5rem', paddingTop: '2.5rem', borderTop: '1px solid rgba(255,255,255,0.06)', flexWrap: 'wrap' }}>
-          {[['3+', 'Years Experience'], ['2', 'Enterprise Projects'], ['5+', 'Microservices Built'], ['10+', 'Technologies']].map(([num, label]) => (
+          {[['3+', 'Years Experience'], ['2', 'Enterprise Projects'], ['10+', 'Microservices Built'], ['10+', 'Technologies']].map(([num, label]) => (
             <div key={label}>
               <div style={{ fontFamily: 'Syne, sans-serif', fontWeight: 800, fontSize: '2rem', color: '#f59e0b', lineHeight: 1 }}>{num}</div>
               <div style={{ fontFamily: 'DM Mono, monospace', fontSize: '0.65rem', color: 'rgba(255,255,255,0.3)', marginTop: '4px', letterSpacing: '0.1em' }}>{label.toUpperCase()}</div>

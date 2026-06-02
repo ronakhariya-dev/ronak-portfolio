@@ -48,7 +48,7 @@ export default function Contact() {
         <div style={{ display: 'grid', gridTemplateColumns: '1fr 1fr', gap: '6rem', alignItems: 'start' }} className="contact-grid">
           <div>
             <p style={{ color: 'rgba(255,255,255,0.45)', fontSize: '1rem', lineHeight: 1.8, marginBottom: '2.5rem' }}>
-              I&apos;m currently working at LTIMindtree in the Capital Markets domain. 
+              I&apos;m currently working at LTIMindtree in the BFS domain. 
               Open to interesting conversations about distributed systems, enterprise architecture,
               or opportunities in fintech and cloud-native development.
             </p>
